@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    width: 15%;
+    margin:auto;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    width: 65%;
+    margin: auto;
+    grid-column-gap: 10px;
+}
+
+.grid-item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#clock{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
