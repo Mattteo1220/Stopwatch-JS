@@ -51,5 +51,5 @@ let clock = document.getElementById("clock");
         seconds = 0;
         minutes = 0;
         hours = 0;
-        clock.innerHTML = "00:00:00:000";
+        clock.innerHTML = "00:00:00:00";
     });
