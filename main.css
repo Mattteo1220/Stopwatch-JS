@@ -3,20 +3,19 @@ body{
     color: white;
 }
 
-h1{
-    width: 15%;
-    margin:auto;
+h1, h4{
+    text-align: center;
 }
 
 .grid-container{
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template: auto auto auto / auto auto auto;
     width: 65%;
     margin: auto;
     grid-column-gap: 10px;
 }
 
-.grid-item:nth-child(1){
+.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3){
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -30,6 +29,7 @@ h1{
 
 button{
     cursor: pointer;
-    background-color: green;
+    border: 1px solid white;
+    background-color: black;
     color: white;
 }
